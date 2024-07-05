@@ -99,7 +99,7 @@ Check out the live demo of Imaginator [here](https://j2g6bfkrwob3a4y9lu2uja.on.d
 
 Imaginator was inspired by my passion for artificial intelligence and digital art. I wanted to create a tool that allows anyone to generate images from text prompts easily. This project represents a culmination of my learning journey at Holberton School.
 
-- **LinkedIn**: [Youssef Lizdihar](https://www.linkedin.com/in/youssef-lizdihar)
+- **LinkedIn**: [Youssef Lizdihar](https://www.linkedin.com/in/yousseflizdihar)
 - **GitHub**: [yousseflizdihar](https://github.com/yousseflizdihar)
 - **Twitter**: [yousseflizdihar](https://twitter.com/yousseflizdihar)
 - **GitHub Repository**: [Imaginator](https://github.com/yousseflizdihar/imaginator)
@@ -120,6 +120,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Youssef Lizdihar - [youssef.lizdihar@gmail.com](mailto:youssef.lizdihar@gmail.com)
+Youssef Lizdihar - [youssef.lizdihar@gmail.com](mailto:youssefyd.3d@gmail.com)
 
 Project Link: [https://github.com/yousseflizdihar/imaginator](https://github.com/yousseflizdihar/imaginator)
