@@ -26,15 +26,15 @@ Imaginator is a tool that allows users to convert text prompts into images using
 
 1. **Quick Image Generation**:
     - Generate images from text prompts quickly and efficiently using the OpenAI API.
-    - ![Quick Image Generation](path/to/feature1-image.jpg)
+    - ![Quick Image Generation]([https://github.com/YoussefLizdihar/Imaginator/blob/main/images/1.png])
 
 2. **Multiple Image Outputs**:
     - Choose the number of images to generate, from 1 to 4, to suit your needs.
-    - ![Multiple Image Outputs](path/to/feature2-image.jpg)
+    - ![Multiple Image Outputs]([https://github.com/YoussefLizdihar/Imaginator/blob/main/images/3.png])
 
 3. **Easy Download**:
     - Download the generated images directly to your device with a single click.
-    - ![Easy Download](path/to/feature3-image.jpg)
+    - ![Easy Download]([https://github.com/YoussefLizdihar/Imaginator/blob/main/images/2.png])
 
 ## Installation
 
