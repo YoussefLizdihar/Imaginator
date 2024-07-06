@@ -66,18 +66,53 @@ To get a local copy up and running follow these simple steps:
 
 ## Technology Stack
 
-- **HTML**: Structure and layout of the web application.
-- **CSS**: Styling the user interface.
-- **JavaScript**: Client-side scripting for interactive elements.
-- **OpenAI API**: Backend service for generating images from text prompts.
+### Frontend
+- **HTML**: Used for structuring the web page.
+- **CSS**: Used for styling the web page.
+- **JavaScript**: Used for adding interactivity to the web page.
+
+### Backend
+- **OpenAI API**: Used for generating images from text prompts using AI.
 
 ## Architecture
 
-Imaginator uses a simple yet effective architecture to connect the front-end with the OpenAI API. The process includes:
+### HTML Structure
+- A top navigation bar with links to the home page and about page.
+- An image generator section with a form for inputting text prompts and generating images.
+- An image gallery section displaying the generated images.
+- An accordion section for FAQs.
+- A footer with copyright information.
 
-- Sending a text prompt to the OpenAI API.
-- Receiving the generated images in response.
-- Displaying the images in the user interface.
+### JavaScript Functionality
+- **Form Submission**: Handles form submission to generate AI images using the OpenAI API.
+- **Image Generation**: Sends a request to the OpenAI API with the user's prompt and desired number of images.
+- **Image Update**: Updates the image gallery with the generated images.
+- **Image Editing**: Allows users to edit the generated images using a built-in editor with options for filters and transformations.
+- **Accordion**: Toggles FAQ sections open and closed.
+
+### Styling
+- External stylesheets are linked for base styles.
+- The CSS handles the layout, styling of the top bar, image generator section, image gallery, accordion, and other UI components.
+
+## Key Components
+
+### HTML
+- Topbar Menu
+- Image Generator Section
+- Image Gallery Section
+- FAQ Section
+- Footer
+
+### JavaScript
+- **Form Handling**: Handles the image generation form submission.
+- **API Interaction**: Interacts with the OpenAI API to generate images.
+- **Image Display**: Updates the image gallery with generated images.
+- **Image Editor**: Provides basic editing functionalities (filters, rotate, flip).
+- **Accordion**: Manages the FAQ accordion behavior.
+
+### CSS
+- **General Styling**: Fonts, colors, layout, and responsiveness.
+- **Specific Components**: Styling for topbar, forms, buttons, image gallery, FAQ accordion, and footer.
 
 ## Challenges
 
