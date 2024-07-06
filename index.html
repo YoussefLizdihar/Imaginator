@@ -6,8 +6,27 @@
     <title>Imaginator - AI image generator</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 </head>
 <body>
+
+    <!-- Topbar Menu -->
+    <header class="topbar">
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="https://imaginatorai.netlify.app/">Home</a></li>
+                <li><a href="https://ffff3d11.wixsite.com/imaginator">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
     <section class="image-generator">
         <div class="content">
             <h1>Imaginator</h1>
@@ -26,36 +45,139 @@
             </form>
         </div>
     </section>
+
+
+
+
+
     <section class="image-gallery">
         <div class="img-card">
             <img src="images/img-1.jpg" alt="image">
+
+            <a href="#" class="edit-btn">
+                <img src="images/edit-icon.svg" alt="edit icon">
+            </a>
+
             <a href="#" class="download-btn">
-                <img src="images/download icon.png" alt="download icon">
+                <img src="images/download icon.svg" alt="download icon">
             </a>
         </div>
         <div class="img-card">
             <img src="images/img-2.jpg" alt="image">
+
+            <a href="#" class="edit-btn">
+                <img src="images/edit-icon.svg" alt="edit icon">
+            </a>
+
             <a href="#" class="download-btn">
-                <img src="images/download icon.png" alt="download icon">
+                <img src="images/download icon.svg" alt="download icon">
             </a>
         </div>
         <div class="img-card">
             <img src="images/img-3.jpg" alt="image">
+            
+            <a href="#" class="edit-btn">
+                <img src="images/edit-icon.svg" alt="edit icon">
+            </a>
+
             <a href="#" class="download-btn">
-                <img src="images/download icon.png" alt="download icon">
+                <img src="images/download icon.svg" alt="download icon">
             </a>
         </div>
         <div class="img-card">
             <img src="images/img-4.jpg" alt="image">
+
+            <a href="#" class="edit-btn">
+                <img src="images/edit-icon.svg" alt="edit icon">
+            </a>
+            
             <a href="#" class="download-btn">
-                <img src="images/download icon.png" alt="download icon">
+                <img src="images/download icon.svg" alt="download icon">
             </a>
         </div>
     </section>
 
+
+    
+
+
+
+
+
+
+    <div class="editor-body">
+    </div>
+
+        <div class="accordion">
+            <H2> FAQs: </H2>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">What is Imaginator?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    Imaginator is a cutting-edge AI image generator that allows users to create stunning visuals from text prompts. Utilizing advanced algorithms from OpenAI, it transforms your ideas into high-quality images.
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">How does Imaginator work?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    Imaginator uses the OpenAI API to generate images. Users input a text prompt, and the AI processes this prompt to produce a corresponding image. The generated images can be downloaded or further edited using the built-in editor.
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">What kind of images can Imaginator generate?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    Imaginator can generate a wide variety of images based on the prompts provided. This includes abstract art, realistic scenes, fantasy illustrations, and much more. The quality and style of the images depend on the specificity and creativity of the input prompt.
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">How do I edit the generated images?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    After generating an image, you can click the "Edit" icon to open the built-in editor. This editor allows you to apply filters, adjust brightness, saturation, and contrast, and perform rotations and flips to fine-tune your image.
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">Can I download the images generated by Imaginator?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    Yes, you can download the images by clicking the "Download" button on each image card. The images will be saved in high resolution for your personal or professional use.
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">What formats are the images available in?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                Currently, the images generated by Imaginator are available in JPEG format. This ensures compatibility with most devices and platforms.    
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title">Can I share the images directly from Imaginator?</span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+                <p class="description">
+                    Currently, Imaginator does not have a built-in sharing feature. However, you can download the images and share them through your preferred social media platforms or messaging apps.    
+                </p>
+            </div>
+        </div>
+
+
     <footer>
         <p>&copy; 2024 Youssef Lizdihar</p>
-        <a href="https://ffff3d11.wixsite.com/imaginator" style="color: white; text-decoration: none; border-bottom: 1px white solid;">About</a>
     </footer>
 </body>
 </html>
