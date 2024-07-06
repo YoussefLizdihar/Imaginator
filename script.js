@@ -1,3 +1,26 @@
+/* 
+Project Name: Imaginator - AI Image Generator
+Author: Youssef Lizdihar
+Email: Youssefyd.3d@gmail.com
+
+Description:
+Imaginator is an AI-based image generation tool that converts text prompts into high-quality images within seconds. 
+Utilizing the OpenAI API, this project allows users to input descriptive text and receive visual representations generated 
+by advanced AI algorithms. Users can download or edit the images using a built-in editor. The tool is designed to facilitate 
+creativity and provide quick visual content for various uses. 
+
+Features:
+1. Generate images from text prompts using AI.
+2. Select the number of images to generate.
+3. Download generated images in high resolution.
+4. Edit images using filters and transformations.
+5. Frequently Asked Questions (FAQ) section for user guidance.
+
+Note:
+This project was created for educational purposes during the ALx Software Engineering Program.
+*/
+
+
 // Select the form and buttons from the DOM
 const generateForm = document.querySelector(".generate-form");
 const generateBtn = generateForm.querySelector(".generate-btn");
