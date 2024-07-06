@@ -1,10 +1,12 @@
+// Select the form and buttons from the DOM
 const generateForm = document.querySelector(".generate-form");
 const generateBtn = generateForm.querySelector(".generate-btn");
 const imageGallery = document.querySelector(".image-gallery");
 
-const OPENAI_API_KEY = "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"; // Your OpenAI API key here
+const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY_HERE"; // Your OpenAI API key here inside ""
 let isImageGenerating = false;
 
+// Update image card with generated images
 const updateImageCard = (imgDataArray) => {
   imgDataArray.forEach((imgObject, index) => {
     const imgCard = imageGallery.querySelectorAll(".img-card")[index];
@@ -14,9 +16,11 @@ const updateImageCard = (imgDataArray) => {
     const editorBody = document.querySelector('.editor-body');
     let contentAdded = false;
 
+    // Convert image data to base64 and set the image source
     const aiGeneratedImage = `data:image/jpeg;base64,${imgObject.b64_json}`;
     imgElement.src = aiGeneratedImage;
 
+    // When image is loaded, update the download button and add event listener for edit
     imgElement.onload = () => {
       imgCard.classList.remove("loading");
       downloadBtn.setAttribute("href", aiGeneratedImage);
@@ -88,6 +92,7 @@ const updateImageCard = (imgDataArray) => {
   });
 }
 
+// Send request to OpenAI API to generate images
 const generateAiImages = async (userPrompt, userImgQuantity) => {
   try {
     const response = await fetch("https://api.openai.com/v1/images/generations", {
@@ -104,6 +109,7 @@ const generateAiImages = async (userPrompt, userImgQuantity) => {
       }),
     });
 
+// Handle errors from API response
     if (!response.ok) throw new Error("Failed to generate AI images. Make sure your API key is valid.");
 
     const { data } = await response.json();
@@ -130,7 +136,7 @@ const handleImageGeneration = (e) => {
   generateBtn.innerText = "Generating";
   isImageGenerating = true;
 
-  // Creating HTML markup for image cards with loading state
+  // Creating HTML markup for image cards with loading state and buttons (edit - download)
   const imgCardMarkup = Array.from({ length: userImgQuantity }, () => 
       `<div class="img-card loading">
         <img src="images/loading.webp" alt="AI generated image">
