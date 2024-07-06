@@ -36,6 +36,10 @@ Imaginator is a tool that allows users to convert text prompts into images using
     - Download the generated images directly to your device with a single click.
     - ![Easy Download](https://github.com/YoussefLizdihar/Imaginator/blob/main/images/2.png)
 
+3. **Image Editor**:
+    - Edit the generated images directly with a single click and use the filters as you want to make it even better and then save it.
+    - ![Image Editor](https://github.com/YoussefLizdihar/Imaginator/blob/main/images/4.jpeg)
+
 ## Installation
 
 To get a local copy up and running follow these simple steps:
